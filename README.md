@@ -36,7 +36,7 @@ Use the scripts provided by jetsonhacks
 11. verify the SPIDev kernel
 	$ cd /lib/modules/$(uname -r)
 	$ cat modules.dep | grep spidev
-	# eg. kernel/drivers/spi/spidev.ko:
+	-- eg. kernel/drivers/spi/spidev.ko:
 
 
 ## Modifying the Device Tree 
@@ -78,7 +78,7 @@ Use the scripts provided by jetsonhacks
 5. Reboot
 6. Verify SPIDev Device
 	$ ls /dev/spi*
-	# eg. /dev/spidev3.0
+	-- eg. /dev/spidev3.0
 
 
 ##	Restart usb on bootup	
