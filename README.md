@@ -1,6 +1,11 @@
-# tx2UsbFix
+# JetSon Configs Collections
 
-##    Compile the kernel     
+
+##    Install Opencv 4.1.1
+`./install_opencv4.1.1_Jetson.sh`
+
+## fix Tx2Usb
+###    Compile the kernel     
 
 Use the scripts provided by jetsonhacks
 1. get the git
@@ -40,7 +45,7 @@ Use the scripts provided by jetsonhacks
 -- eg. kernel/drivers/spi/spidev.ko:
 
 
-## Modifying the Device Tree 
+### Modifying the Device Tree 
 
 1. Install DTC Tool
 	$ sudo apt update
