@@ -23,6 +23,8 @@ then login the system and to ***enable your SSH  this is very important!!!***
 ssh xxxx@xxx.xxx.xxx.xxx
 ```
 
+Then return to SDK manager to input TX2 IP and user and pwd,   keep on install the API packages 
+
 
 ##    Install Opencv 4.1.1
 `./install_opencv4.1.1_Jetson.sh`
