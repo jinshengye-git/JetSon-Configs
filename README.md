@@ -1,6 +1,29 @@
 # JetSon Configs Collections
 
 
+## flash JetPack 4.3/4.2 on Xavier/ TX2 
+This is working flow about installing JetPack4.3(4.2 not tested yet) on TX2 (xavier not tested)
+
+first prepare things:
+
+- usb cable to HostPC
+- lan cable should be pluged on TX2
+- HDMI cable pluged on TX2 connecting with a displa
+
+Then  SDKManager to Download and flash the OS
+
+around 40%   SDKManager will ask you to manually  enter the flash mode just follow the rule it tells you to 
+press the buttons on TX2.
+
+then  after a while the TX2 will automatically launch Ubuntu 18.04 then follow the instructions to create user and password
+
+then login the system and to ***enable your SSH  this is very important!!!***
+```
+#just use SSH connect any PC you have this is for creating the .ssh folder i think.
+ssh xxxx@xxx.xxx.xxx.xxx
+```
+
+
 ##    Install Opencv 4.1.1
 `./install_opencv4.1.1_Jetson.sh`
 
