@@ -19,6 +19,9 @@ Open Network GUI
 **Step 2** : on 'WiFi Security' tab
 
 --> Security: WPA & WPA2 Personal,  set password
+--> if you want to set ip of hotspot, choose "IPv4 Settings" tab, Add Address, for example Address:192.168.11.1, Netmask:24 . Save.
+
+All other device conneting to NanoAP, ip should be : 192.168.11.xxx.
 
 Setup Done. Save and close the Window.
 
