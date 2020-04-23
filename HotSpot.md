@@ -1,4 +1,4 @@
-## Setup the AP on Nano
+## Setup the HotSpot (AP) on Nano
 
 Open Network GUI
 
